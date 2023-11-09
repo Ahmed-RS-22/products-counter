@@ -33,7 +33,6 @@ body{
     text-transform: capitalize;
     perspective: 600px;
     background-color: var(--dark-color);
-    height: 1000rem;
 }
 .header{
     width: 100%;
@@ -236,6 +235,9 @@ fieldset .product:hover{
 .product .product-info button:focus{
     opacity: 0.9;
     cursor: pointer;
+}
+.prices{
+    margin-bottom: 4rem;
 }
 .prices .container{
     width: 80%;
