@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript - task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- header-logo -->
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+                <div class="logo-name">
+                    <a href="#">football</a>
+                </div>
+            </div>
+            <!-- header navbar -->
+            <nav class="navbar">
+                <ul class="links">
+                    <li><a href="#home"  class="link">&nbsp;&nbsp;home&nbsp;&nbsp;</a></li>
+                    <li><a href="#Shirts" class="link"> categories</a></li>
+                    <li><a href="#shoes" class="link"> discounts</a></li>
+                    <li><a href="#balls" class="link"> products</a></li>
+                    <li><a href="#casher" class="link"> &nbsp;casher &nbsp; </a></li>
+                </ul>
+            </nav>
+            <!-- header log in  -->
+            <div class="login"> 
+                <ul  class="log-icons">
+                    <li><i class="fa fa-search fa-solid fa-2x" title="search"></i></li>
+                    <li><i class="icon fa fa-user fa-2x" title=" log-in"></i></li>
+                    <li class="bag"><i class="fa fa-cart-plus fa-2x" title="your bag"></i><span id="myCounter">0</span><a href="#"> your bag</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="home">
+        <div class="container">
+            <fieldset class="row" id="Shirts">
+                <legend >Shirts</legend>
+                <!-- product-1 -->
+                <div class="product">
+                    <div class="img-container">
+                        <img src="./images/1.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> real madrid jersey</p>
+                        <h3>price: 60$</h3>
+                        <button price="60" value="60$" name=" real madrid jersey" title="1">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-2 -->
+                <div class="product">
+                    <div class="img-container">
+                        <img src="./images/2.jpg" alt="image" >
+                    </div>
+                    <din class="product-info">
+                        <p>man united jersey</p>
+                        <h3>price: 55$</h3>
+                        <button  price="55" value="55$" name="man united jersey" title="2">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-3 -->
+                <div class="product">
+                    <div class="img-container">
+                        <img src="./images/3.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p>Barcelona jersey</p>
+                        <h3>price: 65$</h3>
+                        <button price="65" value="65$" name="Barcelona jersey" title="3">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-4 -->
+                <div class="product">
+                    <div class="img-container">
+                        <img src="./images/4.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p>Tottenham jersey</p>
+                        <h3>price: 40$</h3>
+                        <button price="40" value="40$" name="Tottenham jersey" title="4">buy now</button>
+                    </din>
+                </div>
+            </fieldset>
+            <fieldset class="row" id="shoes">
+                <legend >Shoes</legend>
+                <!-- product-5 -->
+                <div class="product" >
+                    <div class="img-container">
+                        <img src="./images/5.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p>Nike Phantom GX Elite</p>
+                        <h3>price: 120$</h3>
+                        <button name="Nike Phantom GX Elite" price="120" value="120$" title="5">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-6 -->
+                <div class="product" >
+                    <div class="img-container">
+                        <img src="./images/6.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> Adidas X Speedportal.1 FG </p>
+                        <h3>price: 150$</h3>
+                        <button price="150" value="150$" name="Adidas X Speedportal.1 FG" title="6">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-7 -->
+                <div class="product" >
+                    <div class="img-container">
+                        <img src="./images/7.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> Nike Tiempo Legend 9 </p>
+                        <h3>price: 110$</h3>
+                        <button price="110" value="110$" name="Nike Tiempo Legend 9" title="7">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-8-->
+                <div class="product" >
+                    <div class="img-container">
+                        <img src="./images/8.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> Nike Air Zoom Mercurial Super</p>
+                        <h3>price: 140$</h3>
+                        <button value="140$" name="Nike Air Zoom Mercurial Supe" price="140" title="8">buy now</button>
+                    </din>
+                </div>
+            </fieldset>
+            <fieldset class="row" id="balls">
+                <legend >balls</legend>
+                <!-- product-9 -->
+                <div class="product">
+                    <div class="img-container">
+                        <img src="./images/9.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> Adidas Al Rihla 2022</p>
+                        <h3>price: 35$</h3>
+                        <button name="Adidas Al Rihla 2022" price="35" value="35$" title="9">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-10 -->
+                <div class="product">
+                    <div class="img-container">
+                        <img src="./images/10.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> Adidas RFEF 2023/24</p>
+                        <h3>price: 30$</h3>
+                        <button name="Adidas RFEF 2023/24" price="30"  value="30$" title="10">buy now</button>
+                    </din>
+                </div>
+                                <!-- product- 11-->
+                <div class="product" >
+                    <div class="img-container">
+                        <img src="./images/11.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> Adidas Argentum Gotan</p>
+                        <h3>price: 25$</h3>
+                        <button name="Adidas Argentum Gotan" price="25" value="25$" title="11">buy now</button>
+                    </din>
+                </div>
+                                <!-- product-12 -->
+                <div class="product">
+                    <div class="img-container">
+                        <img src="./images/12.jpg" alt="image">
+                    </div>
+                    <din class="product-info">
+                        <p> Adidas Football</p>
+                        <h3>price: 20$</h3>
+                        <button name="Adidas Football"  value="20$" price="20" title="12">buy now</button>
+                    </din>
+                </div>
+            </fieldset>
+        </div>
+    </section>
+    <section class="prices" id="casher">
+        <div class="container">
+            <div class="price-box">
+                <div class="p-header">
+                    <p>product</p>
+                    <p>price</p>
+                </div>
+                <hr>
+                <div class="your-product">
+                   
+                </div>
+                <hr>
+                <div class="total-price" id="total-price">
+                    total-price :&nbsp; <span></span> <button class="show-price" id="showprice">show price</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
