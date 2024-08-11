@@ -66,7 +66,7 @@ body{
 }
 
 .logo img:hover{
-    transform: scale(1.1);
+    transform: scale(1.15) rotate(2turn);
 }
 .header .logo .logo-name{
     height: 100%;
